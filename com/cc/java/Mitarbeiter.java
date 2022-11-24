@@ -18,9 +18,9 @@ public class Mitarbeiter {
 
     public String getInfo(String flag) {
         switch (flag) {
-            case "#lastname":
+            case "#lastName":
                 return lastName;
-            case "#firstname":
+            case "#firstName":
                 return firstName;
             case "#role":
                 return role;
