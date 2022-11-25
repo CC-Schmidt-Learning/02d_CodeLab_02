@@ -14,7 +14,7 @@ public class App {
         output("------------------------");
     
     Mitarbeiter mitarbeiter2 = new Mitarbeiter("Sonnenberg", "Maik", "Chefprogrammierer", 2010);
-    System.out.print(mitarbeiter2.getInfo("#lastName"));
+    System.out.print(mitarbeiter2.getInfo("#lastName") + " ");
     System.out.println(mitarbeiter2.getInfo("#firstName"));
    output(mitarbeiter2.getInfo("#role"));
    output(mitarbeiter2.getYearofEntry());
@@ -22,7 +22,7 @@ public class App {
    output("------------------------");
 
    Mitarbeiter mitarbeiter3 = new Mitarbeiter("Eggert", "Marcel", "Netzwerkadministrator", 2015);
-   System.out.print(mitarbeiter3.getInfo("#lastName"));
+   System.out.print(mitarbeiter3.getInfo("#lastName") + " ");
    System.out.println(mitarbeiter3.getInfo("#firstName"));
    output(mitarbeiter3.getInfo("#role"));
    output(mitarbeiter3.getYearofEntry());
@@ -30,7 +30,7 @@ public class App {
    output("------------------------");
 
    Mitarbeiter mitarbeiter4 = new Mitarbeiter("Kamenetski", "Mia", "Meme-Expertin", 2008);
-   System.out.print(mitarbeiter4.getInfo("#lastName"));
+   System.out.print(mitarbeiter4.getInfo("#lastName") + " ");
    System.out.println(mitarbeiter4.getInfo("#firstName"));
    output(mitarbeiter4.getInfo("#role"));
    output(mitarbeiter4.getYearofEntry());
